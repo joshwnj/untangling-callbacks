@@ -192,7 +192,7 @@ If a function is too tangled with its context you have to think much harder abou
 Putting it together
 ----
 
-Finally let's take the functions we've written and see if we can stick them together to solve the problem:
+Finally let's take the functions we've written and see if we can stick them together to solve the problem (You can see the complete code in <https://github.com/joshwnj/untangling-callbacks>):
 
 ```js
 var fs = require('fs');
