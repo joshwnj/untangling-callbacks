@@ -1,0 +1,22 @@
+{
+  "name": "untangling-callbacks",
+  "version": "1.0.0",
+  "description": "Thoughts and examples of working with functions and callbacks in javascript",
+  "main": "find-max-file-in-directory.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joshwnj/untangling-callbacks.git"
+  },
+  "author": "joshwnj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshwnj/untangling-callbacks/issues"
+  },
+  "homepage": "https://github.com/joshwnj/untangling-callbacks",
+  "dependencies": {
+    "map-async": "^0.1.1"
+  }
+}
