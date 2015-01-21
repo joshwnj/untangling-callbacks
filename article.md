@@ -1,7 +1,7 @@
 Untangling Callbacks
 ====
 
-Promises, generators, fibres... Extremely clever people have gone to great lengths to avoid using callbacks in javascript. Writing callback-heavy javascript can be very challenging and once you've gone beyond 5 or so levels of callback-nesting it's reasonable to start asking whether there might be a better way.
+Promises, generators, fibers... Extremely clever people have gone to great lengths to avoid using callbacks in javascript. Writing callback-heavy javascript can be very challenging and once you've gone beyond 5 or so levels of callback-nesting it's reasonable to start asking whether there might be a better way.
 
 But consider that callbacks aren't a "language feature" of javascript. Callbacks are just functions. Often when we find the natural way to express our intent as functions, the rest easily falls into place. So whatever feelings you may have on the subject of callbacks there is much to be gained by learning how to get the most out of functions.
 
