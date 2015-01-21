@@ -15,6 +15,8 @@ function findMaxFileInDirectory (dir, callback) {
 }
 
 function findMaxFile (filenames, callback) {
+  if (!filenames.length) { return callback(null, null); }
+
   // load all files
   loadFiles(filenames, function (err, results) {
     if (err) { return callback(err); }
